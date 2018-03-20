@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  * @date 2018年03月20日
  */
 public class MoneyTransformHelper {
-    private static final String NUMBER_REGEX = "^-?[0-9]+$";
+    private static final String NUMBER_REGEX = "^[0-9]+$";
     private static final Pattern NUMBER_PATTERN = Pattern.compile(NUMBER_REGEX);
     
     /**
@@ -54,7 +54,6 @@ public class MoneyTransformHelper {
 
     public static char[] numberToArray(int number)
     {
-
         return numberToArray(String.valueOf(number));
     }
 

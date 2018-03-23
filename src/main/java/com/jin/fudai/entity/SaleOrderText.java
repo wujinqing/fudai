@@ -26,10 +26,14 @@ public class SaleOrderText {
     private String depositText = "已付订金：";
     private String depositUppercaseText = "大写";
     private String bankAcountText = "银行账户：";
-    private String bankAcount1Text = "中国建设银行账号：6236 6821 2000 2520 059";
-    private String bankAcount2Text = "中国 银 行 账 号：6217 9065 0002 9816 228";
-    private String bankAcount3Text = "江西省农村信用社：6226 8220 1460 2474 829";
-    private String bankAcount4Text = "中国邮政储蓄银行：6217 9942 8000 4623 047";
+    private String bankName1Text = "中国建设银行账号：";
+    private String bankAcount1Text = "6236 6821 2000 2520 059";
+    private String bankName2Text = "中国 银 行 账 号：";
+    private String bankAcount2Text = "6217 9065 0002 9816 228";
+    private String bankName3Text = "江西省农村信用社：";
+    private String bankAcount3Text = "6226 8220 1460 2474 829";
+    private String bankName4Text = "中国邮政储蓄银行：";
+    private String bankAcount4Text = "6217 9942 8000 4623 047";
     private String bankAcountName1Text = "户名：余成长生";
     private String bankAcountName2Text = "户名：余成长生";
     private String bankAcountName3Text = "户名：余成长生";
@@ -37,8 +41,40 @@ public class SaleOrderText {
     private String totalPriceText = "货款总额：";
     private String totalPriceUppercaseText = "大写：";
     private String totalPriceUppercase = "货款总额大写";
-    private String customerSignRemarkText = "*此单未付款客户签名作为欠条*";
+    private String customerSignRemarkText = "此单未付款客户签名作为欠条";
     private String customerSignText = "客户签名：";
+
+    public String getBankName1Text() {
+        return bankName1Text;
+    }
+
+    public void setBankName1Text(String bankName1Text) {
+        this.bankName1Text = bankName1Text;
+    }
+
+    public String getBankName2Text() {
+        return bankName2Text;
+    }
+
+    public void setBankName2Text(String bankName2Text) {
+        this.bankName2Text = bankName2Text;
+    }
+
+    public String getBankName3Text() {
+        return bankName3Text;
+    }
+
+    public void setBankName3Text(String bankName3Text) {
+        this.bankName3Text = bankName3Text;
+    }
+
+    public String getBankName4Text() {
+        return bankName4Text;
+    }
+
+    public void setBankName4Text(String bankName4Text) {
+        this.bankName4Text = bankName4Text;
+    }
 
     public String getTitleText() {
         return titleText;

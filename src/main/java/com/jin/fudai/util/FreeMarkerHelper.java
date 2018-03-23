@@ -13,9 +13,9 @@ import freemarker.template.TemplateExceptionHandler;
 
 public class FreeMarkerHelper {
 	private static final Configuration cfg;
-	private static final String TEMPLATE_NAME = "sale_order.ftl";
+	private static final String TEMPLATE_NAME = "fudai_sale_order.ftl";
 	private static final String FTL_DIR = "/ftl";
-	private static final String TARGET_DIR = FreeMarkerHelper.class.getClassLoader().getResource("doc").getPath();
+	private static final String TARGET_DIR = FreeMarkerHelper.class.getClassLoader().getResource("doc/").getPath();
 
 	static
 	{
@@ -57,7 +57,7 @@ public class FreeMarkerHelper {
 	public static void main(String[] args) throws Exception {
 		SaleOrder saleOrder = new SaleOrder();
 
-		process("zhansan.docx", saleOrder);
+		process("zhansan3.docx", saleOrder);
 
 		System.out.println("结束");
 	}

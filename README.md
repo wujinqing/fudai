@@ -57,13 +57,17 @@
 
 > ${bankAcountText} -> 银行账户：
 
-> ${bankAcount1Text} -> 中国建设银行账号：6236 6821 2000 2520 059
+> ${bankName1Text} -> 中国建设银行账号：
+> ${bankAcount1Text} -> 6236 6821 2000 2520 059
 
-> ${bankAcount2Text} -> 中国 银 行 账 号：6217 9065 0002 9816 228
+> ${bankName2Text} -> 中国 银 行 账 号：
+> ${bankAcount2Text} -> 6217 9065 0002 9816 228
 
-> ${bankAcount3Text} -> 江西省农村信用社：6226 8220 1460 2474 829
+> ${bankName3Text} -> 江西省农村信用社：
+> ${bankAcount3Text} -> 6226 8220 1460 2474 829
 
-> ${bankAcount4Text} -> 中国邮政储蓄银行：6217 9942 8000 4623 047
+> ${bankName4Text} -> 中国邮政储蓄银行：
+> ${bankAcount4Text} -> 6217 9942 8000 4623 047
 
 > ${bankAcountName1Text} -> 户名：余成长生
 
@@ -81,7 +85,7 @@
 
 > ${totalPriceUppercase} -> 货款总额大写
 
-> ${customerSignRemarkText} -> \*此单未付款客户签名作为欠条*
+> ${customerSignRemarkText} -> 此单未付款客户签名作为欠条
 
 > ${customerSignText} -> 客户签名：
 

@@ -4,10 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
  * 服务启动器类
@@ -15,8 +17,9 @@ import org.springframework.web.servlet.ModelAndView;
  * @author wu.jinqing
  * @date 2018年03月24日
  */
-@RestController
+@Controller
 @EnableAutoConfiguration
+@EnableWebMvc
 public class ServerBootstrap {
     @RequestMapping("/")
     @ResponseBody
@@ -27,9 +30,10 @@ public class ServerBootstrap {
     }
 
     @RequestMapping("/freemarker")
-    String fm(ModelAndView model)
+    @ResponseBody
+    String fm(ModelMap model)
     {
-//        model.addAttribute("name", "zhangsan");
+        model.addAttribute("name", "zhangsan");
         return "fm";
     }
 

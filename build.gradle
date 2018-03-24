@@ -20,7 +20,10 @@ dependencies {
             'org.freemarker:freemarker:2.3.27-incubating',
             'org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE',
             'org.hibernate:hibernate-core:5.2.16.Final',
-            'mysql:mysql-connector-java:5.1.46'
+            'mysql:mysql-connector-java:5.1.46',
+            'org.slf4j:slf4j-api:1.7.25',
+            'ch.qos.logback:logback-core:1.2.3',
+            'ch.qos.logback:logback-classic:1.2.3'
     )
 
 }

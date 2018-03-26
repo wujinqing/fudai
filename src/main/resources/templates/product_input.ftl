@@ -90,14 +90,38 @@
     	<input type="hidden" id="id" name="id" value="${product.id!}">
 
     	<table>
-    		<tr>
-    			<td width="15%" class="txtRight">商品名称：</td>
-			    <td width="35%" class="txtLeft"><input type="text" id="product.name" name="product.name" value="${product.name!}"></td>
-        	    <td width="15%" class="txtRight">销售单价：</td>
-			    <td width="35%" class="txtLeft"><input type="text" id="product.price" name="product.price" value="${(product.price)!}"><font color="red">*</font></td>
-        	</tr>
 
 
+            <tr>
+                <td width="15%" class="txtRight">品名：</td>
+                <td colspan="3" width="35%" class="txtLeft">
+					<input type="text" style="width:50%"  name="product.name" value="${product.name!}">
+				</td>
+            </tr>
+            <tr>
+                <td width="15%" class="txtRight">款式：</td>
+                <td colspan="3" width="35%" class="txtLeft">
+					<input type="text" style="width:50%"  name="product.style" value="${product.style!}">
+				</td>
+            </tr>
+            <tr>
+                <td width="15%" class="txtRight">颜色：</td>
+                <td colspan="3" width="35%" class="txtLeft">
+					<input type="text" style="width:50%"  name="product.color" value="${product.color!}">
+				</td>
+            </tr>
+            <tr>
+                <td width="15%" class="txtRight">单位：</td>
+                <td colspan="3" width="35%" class="txtLeft">
+					<input type="text" style="width:50%"  name="product.unit" value="${product.unit!}">
+				</td>
+            </tr>
+            <tr>
+                <td width="15%" class="txtRight">单价：</td>
+                <td colspan="3" width="35%" class="txtLeft">
+					<input type="text" style="width:50%"  name="product.price" value="${product.price!}">
+				</td>
+            </tr>
 
 
             <tr>

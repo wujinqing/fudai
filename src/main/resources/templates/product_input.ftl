@@ -110,15 +110,5 @@
 		</table>
         </form>
     	</@u.form_bar>
-
-		<!--html编辑器-->
-		<script type="text/javascript">
-		var oFCKeditor = new FCKeditor("product.description");
-		oFCKeditor.BasePath="/js/fckeditor/";
-		oFCKeditor.Height="100%";
-		oFCKeditor.ToolbarSet = "Default" ;
-		oFCKeditor.Value="";
-		oFCKeditor.ReplaceTextarea();
-		</script>
     </body>
 </html>

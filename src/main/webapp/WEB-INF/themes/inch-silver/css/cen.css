@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{ background:#000;}
-img, div,li, a, input,span { _behavior: url(js/iepngfix.htc) }
+img, div,li, a, input,span { _behavior: url(../../../js/iepngfix.htc) }
 /*弹出*/
 .pop_main{width:384px;margin:20px auto;}
 .pop_Title,.popLogin_main{width:90%;margin:0 auto;}

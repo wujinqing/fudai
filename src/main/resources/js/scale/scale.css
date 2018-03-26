@@ -1,0 +1,64 @@
+
+.s-frame {
+	position: relative;
+	overflow: hidden;
+}
+
+.s-list {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.s-item {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.s-buttons {
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 1000;
+}
+
+.s-buttons a {
+	display: block;
+	float: left;
+	text-align: center;
+	font-family: Arial;
+	/* 隐藏外面的虚线 */
+	outline: none; /* mozilla */
+	hidefocus: expression(this.onFocus=this.blur()); /* ie */
+}
+
+.s-current {
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0px 0px 0px 2px;
+	color:#FFFFFF;
+	background: #A9D528;
+	border: 1px #FFFFFF solid;
+	position: relative;
+	left: 2px;
+}
+
+.s-normal {
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 2px 0px 2px 6px;
+	color:#73ADEF;
+	background: #FFFFFF;
+	border: 1px #73ADEF solid;
+}

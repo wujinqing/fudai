@@ -2,6 +2,7 @@ package com.jin.fudai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -17,26 +18,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  * @author wu.jinqing
  * @date 2018年03月24日
  */
-@Controller
-@EnableAutoConfiguration
-@EnableWebMvc
+@SpringBootApplication
 public class ServerBootstrap {
-    @RequestMapping("/")
-    @ResponseBody
-    String home(Model model)
-    {
-        model.addAttribute("name", "zhangsan");
-        return "index";
-    }
-
-    @RequestMapping("/freemarker")
-    @ResponseBody
-    String fm(ModelMap model)
-    {
-        model.addAttribute("name", "zhangsan");
-        return "fm";
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(ServerBootstrap.class, args);
     }

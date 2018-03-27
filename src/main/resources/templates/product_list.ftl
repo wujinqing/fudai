@@ -63,10 +63,28 @@
     	<@u.title_bar_btn type="new" onclick="edit();"/>
 
 </@u.title_bar>
-    	
+
+<@u.search_bar action="/product/list">
+<table width="100%" border="0" cellspacing="0">
+    <tr>
+
+        <td>品名：</td>
+        <td>
+            <select id="member_qjScore" name="name">
+                <option value="">---请选择---</option>
+                <option value="尊贵系列门卫浴">尊贵系列门卫浴</option>
+
+            </select>
+        </td>
+
+    </tr>
+</table>
+</@u.search_bar>
+
 <div class="listLine">
 <table>
   <tr>
+	<th>序号</th>
     <th>品名</th>
     <th>款式</th>
     <th>颜色</th>
@@ -77,6 +95,7 @@
   <#if productList??>
   	<#list productList as product>
   	<tr>
+        <td>${(product_index+1)}</td>
 	    <td>${(product.name)!}</td>
 	    <td>${(product.style)!}</td>
 	    <td>${(product.color)!}</td>
@@ -89,10 +108,12 @@
   	</tr>
   	</#list>
   <#else>
-  	<tr><td colspan="5">暂无记录</td></tr>
+  	<tr><td colspan="7">暂无记录</td></tr>
   </#if>
 </table>
 </div>
-
+<#--
+<@u.paginate page=page/>
+-->
 </body>
 </html>

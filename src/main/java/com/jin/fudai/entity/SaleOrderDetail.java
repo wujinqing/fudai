@@ -1,13 +1,20 @@
 package com.jin.fudai.entity;
 
 /**
- * 产品
+ * 订单详情
  *
  * @author wu.jinqing
- * @date 2018年03月23日
+ * @date 2018年03月27日
  */
-public class Product {
+public class SaleOrderDetail {
     private long id;
+
+    private long orderId;
+
+    /**
+     * 订单号: 201803201
+     */
+    private String orderNo;
 
     /**
      * 品名
@@ -34,12 +41,38 @@ public class Product {
      */
     private String price;
 
+    /**
+     * 数量
+     */
+    private String amount;
+
+    /**
+     * 总价
+     */
+    private String priceTotal;
+
     public long getId() {
         return id;
     }
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public long getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(long orderId) {
+        this.orderId = orderId;
+    }
+
+    public String getOrderNo() {
+        return orderNo;
+    }
+
+    public void setOrderNo(String orderNo) {
+        this.orderNo = orderNo;
     }
 
     public String getName() {
@@ -80,5 +113,21 @@ public class Product {
 
     public void setPrice(String price) {
         this.price = price;
+    }
+
+    public String getAmount() {
+        return amount;
+    }
+
+    public void setAmount(String amount) {
+        this.amount = amount;
+    }
+
+    public String getPriceTotal() {
+        return priceTotal;
+    }
+
+    public void setPriceTotal(String priceTotal) {
+        this.priceTotal = priceTotal;
     }
 }

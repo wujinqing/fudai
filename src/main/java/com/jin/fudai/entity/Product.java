@@ -1,37 +1,51 @@
 package com.jin.fudai.entity;
 
+import javax.persistence.*;
+
+import static javax.persistence.GenerationType.IDENTITY;
+
 /**
  * 产品
  *
  * @author wu.jinqing
  * @date 2018年03月23日
  */
+@Entity
+@Table(name = "product")
 public class Product {
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
+    @Column(name = "id")
     private long id;
 
     /**
      * 品名
      */
+    @Column(name = "name")
     private String name;
 
     /**
      * 款式
      */
+    @Column(name = "style")
     private String style;
 
     /**
      * 颜色
      */
+    @Column(name = "color")
     private String color;
 
     /**
      * 单位
      */
+    @Column(name = "unit")
     private String unit;
 
     /**
      * 单价
      */
+    @Column(name = "price")
     private String price;
 
     public long getId() {

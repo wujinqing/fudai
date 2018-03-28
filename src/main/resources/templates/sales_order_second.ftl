@@ -31,7 +31,7 @@
         			}
         		}
         		var st = check.substring(0,check.length-1);
-        		document.getElementById("product.salesType").value = st;
+        		document.getElementById("order.salesType").value = st;
         	}
 
 
@@ -60,8 +60,8 @@
 				}
 				if(pid=="") pid=0;
 				if(id=="") id=0;
-        		var oName = document.getElementById("product.name").value;
-        		var oPrice = document.getElementById("product.price").value;
+        		var oName = document.getElementById("order.name").value;
+        		var oPrice = document.getElementById("order.price").value;
 	        	var over = document.getElementById("isOver").value;
 	        	if(oName ==""){
 	        		alert("请填写商品名称！");
@@ -83,50 +83,51 @@
         </script>
     </head>
     <body class="mainbody">
-    	<@u.form_bar title='${(product.id??)?string("编辑商品","新建商品")}'>
-    	<form id="form" name="form" action="/product/save" method="post" enctype="multipart/form-data">
+    	<@u.form_bar title='选择产品'>
+    	<form id="form" name="form" action="/order/third" method="post" enctype="multipart/form-data">
     	<input type="hidden" id="idAmount" name="idAmount" value=""/>
     	<input type="hidden" id="flush" name="flush" value="true">
-    	<input type="hidden" id="id" name="id" value="${product.id!}">
+    	<input type="hidden" id="id" name="id" value="${order.id!}">
 
     	<table>
 
 
             <tr>
-                <td width="15%" class="txtRight">品名：</td>
+                <td width="15%" class="txtRight">订单号：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="name" value="${product.name!}">
+					<input type="text" style="width:50%"  name="order.orderNo" value="${order.orderNo!}">
 				</td>
             </tr>
             <tr>
-                <td width="15%" class="txtRight">款式：</td>
+                <td width="15%" class="txtRight">下单日期：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="style" value="${product.style!}">
+                    <input type="text" style="width:50%"  name="order.date" value="${order.date!}">
+                </td>
+            </tr>
+            <tr>
+                <td width="15%" class="txtRight">客户姓名：</td>
+                <td colspan="3" width="35%" class="txtLeft">
+					<input type="text" style="width:50%"  name="order.customerName" value="${order.customerName!}">
 				</td>
             </tr>
             <tr>
-                <td width="15%" class="txtRight">颜色：</td>
+                <td width="15%" class="txtRight">联系电话：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="color" value="${product.color!}">
+					<input type="text" style="width:50%"  name="order.customerPhoneNumber" value="${order.customerPhoneNumber!}">
 				</td>
             </tr>
             <tr>
-                <td width="15%" class="txtRight">单位：</td>
+                <td width="15%" class="txtRight">联系地址：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="unit" value="${product.unit!}">
+					<input type="text" style="width:50%"  name="order.customerAddress" value="${order.customerAddress!}">
 				</td>
             </tr>
-            <tr>
-                <td width="15%" class="txtRight">单价：</td>
-                <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="price" value="${product.price!}">
-				</td>
-            </tr>
+
 
 
             <tr>
                 <td colspan="4">
-                    <input type="submit" class="btn_bg" value="保存" >
+                    <input type="submit" class="btn_bg" value="下一步，选择产品" >
                     <span id="msg" style="color:red"></span>
                 </td>
             </tr>

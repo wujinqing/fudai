@@ -1,55 +1,81 @@
 package com.jin.fudai.entity;
 
+import javax.persistence.*;
+
+import static javax.persistence.GenerationType.IDENTITY;
+
 /**
  * 订单详情
  *
  * @author wu.jinqing
  * @date 2018年03月27日
  */
+@Entity
+@Table(name = "sale_order_detail")
 public class SaleOrderDetail {
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
+    @Column(name = "id")
     private long id;
 
-    private long orderId;
+    /**
+     * SaleOrder.id
+     */
+    @ManyToOne
+    private SaleOrder order;
 
     /**
      * 订单号: 201803201
      */
+    @Column(name = "order_no")
     private String orderNo;
 
     /**
      * 品名
      */
+    @Column(name = "name")
     private String name;
 
     /**
      * 款式
      */
+    @Column(name = "style")
     private String style;
 
     /**
      * 颜色
      */
+    @Column(name = "color")
     private String color;
 
     /**
      * 单位
      */
+    @Column(name = "unit")
     private String unit;
 
     /**
      * 单价
      */
+    @Column(name = "price")
     private String price;
 
     /**
      * 数量
      */
+    @Column(name = "amount")
     private String amount;
 
     /**
-     * 总价
+     * 原价
      */
-    private String priceTotal;
+    @Column(name = "original_price")
+    private String originalPrice;
+    /**
+     * 实际支付价格
+     */
+    @Column(name = "actual_price")
+    private String actualPrice;
 
     public long getId() {
         return id;
@@ -59,12 +85,12 @@ public class SaleOrderDetail {
         this.id = id;
     }
 
-    public long getOrderId() {
-        return orderId;
+    public SaleOrder getOrder() {
+        return order;
     }
 
-    public void setOrderId(long orderId) {
-        this.orderId = orderId;
+    public void setOrder(SaleOrder order) {
+        this.order = order;
     }
 
     public String getOrderNo() {
@@ -123,11 +149,19 @@ public class SaleOrderDetail {
         this.amount = amount;
     }
 
-    public String getPriceTotal() {
-        return priceTotal;
+    public String getOriginalPrice() {
+        return originalPrice;
     }
 
-    public void setPriceTotal(String priceTotal) {
-        this.priceTotal = priceTotal;
+    public void setOriginalPrice(String originalPrice) {
+        this.originalPrice = originalPrice;
+    }
+
+    public String getActualPrice() {
+        return actualPrice;
+    }
+
+    public void setActualPrice(String actualPrice) {
+        this.actualPrice = actualPrice;
     }
 }

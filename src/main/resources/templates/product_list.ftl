@@ -13,22 +13,22 @@
 	function edit(id){
 		document.getElementById("id").value=id;
 		var form = document.getElementById("pro_form");
-		form.action="product!input.action";
+		form.action="/product/edit";
 		form.submit();
 	}
+
+    function add(){
+        var form = document.getElementById("form1");
+        form.action="/product/add";
+        form.submit();
+    }
 	
 	function del(id){
-		if(confirm("确认删除该商品？")){
-			ProductAjaxService.isDelete(id,function(data){
-				if(data){
-					document.getElementById("id").value=id;
-					var form = document.getElementById("pro_form");
-					form.action="product!deleteOne.action";
-					form.submit();
-				}else{
-					alert("产品产生过销售单或订单不能删除！");
-				}
-			});
+		if(confirm("确认删除该产品？")){
+            document.getElementById("id").value=id;
+            var form = document.getElementById("pro_form");
+            form.action="/product/del";
+            form.submit();
 		}else{
 			return;
 		}
@@ -60,7 +60,7 @@
 </form>
  <@u.title_bar title="${(product.name)!'产品'}列表">
 
-    	<@u.title_bar_btn type="new" onclick="edit();"/>
+    	<@u.title_bar_btn type="new" onclick="add();"/>
 
 </@u.title_bar>
 

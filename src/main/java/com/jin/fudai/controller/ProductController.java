@@ -2,6 +2,9 @@ package com.jin.fudai.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.jin.fudai.entity.Product;
+import com.jin.fudai.repository.ProductRepository;
+import com.jin.fudai.service.ProductService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,24 +22,13 @@ import java.util.Map;
 @Controller
 @RequestMapping("/product")
 public class ProductController {
+    @Autowired
+    private ProductRepository productRepository;
+
     @RequestMapping("/list")
     public String list(Model model,
                        @RequestParam @Nullable String name) {
-        System.out.println("查询订单列表");
-        System.out.println("查询订单列表, name: " + name);
-
-        List<Product> productList = new ArrayList<>();
-
-        Product p = new Product();
-
-        p.setId(1L);
-        p.setName("尊贵系列门卫浴");
-        p.setStyle("YH-8241");
-        p.setColor("香槟金");
-        p.setUnit("樘");
-        p.setPrice("910");
-
-        productList.add(p);
+        List<Product> productList = productRepository.findAll();
 
         model.addAttribute("productList", productList);
 
@@ -44,20 +36,35 @@ public class ProductController {
     }
 
     @RequestMapping("/add")
-    public String welcome(Model model) {
-        Product p = new Product();
-
-        p.setId(1L);
-        p.setName("尊贵系列门卫浴");
-        p.setStyle("YH-8241");
-        p.setColor("香槟金");
-        p.setUnit("樘");
-        p.setPrice("910");
-
-        model.addAttribute("product", p);
-
+    public String add(Model model, Product product) {
         return "product_input";
     }
 
+    @RequestMapping("/save")
+    public String save(Model model, Product product) {
+        System.out.println("json:" + JSON.toJSONString(product));
+        productRepository.save(product);
 
+        List<Product> productList = productRepository.findAll();
+
+        model.addAttribute("productList", productList);
+        return "product_list";
+    }
+
+    @RequestMapping("/del")
+    public String del(Model model, long id) {
+        productRepository.deleteById(id);
+
+        List<Product> productList = productRepository.findAll();
+
+        model.addAttribute("productList", productList);
+        return "product_list";
+    }
+
+    @RequestMapping("/edit")
+    public String edit(Model model, long id) {
+        Product product = productRepository.findById(id).get();
+        model.addAttribute("product", product);
+        return "product_input";
+    }
 }

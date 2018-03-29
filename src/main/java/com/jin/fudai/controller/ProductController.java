@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.jin.fudai.entity.Product;
 import com.jin.fudai.repository.ProductRepository;
 import com.jin.fudai.service.ProductService;
+import com.jin.fudai.util.ProductUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Controller;
@@ -26,11 +27,18 @@ public class ProductController {
     private ProductRepository productRepository;
 
     @RequestMapping("/list")
-    public String list(Model model,
-                       @RequestParam @Nullable String name) {
+    public String list(Model model, Product product) {
+
+        ProductUtil.trimLastComma(product);
+
         List<Product> productList = productRepository.findAll();
 
+        productList = ProductUtil.filterProducts(productList, product);
+
+        ProductUtil.ProductSumary productSumary = ProductUtil.productSumary(productList);
+        System.out.println("productSumary:" + JSON.toJSONString(productSumary));
         model.addAttribute("productList", productList);
+        model.addAttribute("productSumary", productSumary);
 
         return "product_list";
     }

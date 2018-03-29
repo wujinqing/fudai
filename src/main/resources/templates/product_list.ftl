@@ -70,14 +70,52 @@
 
         <td>品名：</td>
         <td>
-            <select id="member_qjScore" name="name">
+            <select id="member_qjScore" name="name" >
                 <option value="">---请选择---</option>
-                <option value="尊贵系列门卫浴">尊贵系列门卫浴</option>
-
+                <#if productSumary??>
+                <#if productSumary.productNames??>
+                    <#list productSumary.productNames as name>
+                            <option value="${name}">${name}</option>
+                    </#list>
+                </#if>
+                </#if>
             </select>
         </td>
 
     </tr>
+    <tr>
+        <td>款式：</td>
+        <td>
+            <select id="member_qjScore" name="style">
+                <option value="">---请选择---</option>
+                <#if productSumary??>
+                    <#if productSumary.productStyles??>
+                        <#list productSumary.productStyles as style>
+                            <option value="${style}">${style}</option>
+                        </#list>
+                    </#if>
+                </#if>
+
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>颜色：</td>
+        <td>
+            <select id="member_qjScore" name="color">
+                <option value="">---请选择---</option>
+                <#if productSumary??>
+                    <#if productSumary.productColors??>
+                        <#list productSumary.productColors as color>
+                            <option value="${color}">${color}</option>
+                        </#list>
+                    </#if>
+                </#if>
+
+            </select>
+        </td>
+    </tr>
+
 </table>
 </@u.search_bar>
 

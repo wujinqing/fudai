@@ -32,13 +32,14 @@ public class ProductController {
         ProductUtil.trimLastComma(product);
 
         List<Product> productList = productRepository.findAll();
-
+        ProductUtil.ProductSumary productSumary = ProductUtil.productSumary(productList);
         productList = ProductUtil.filterProducts(productList, product);
 
-        ProductUtil.ProductSumary productSumary = ProductUtil.productSumary(productList);
+
         System.out.println("productSumary:" + JSON.toJSONString(productSumary));
         model.addAttribute("productList", productList);
         model.addAttribute("productSumary", productSumary);
+        model.addAttribute("product", product);
 
         return "product_list";
     }
@@ -55,8 +56,12 @@ public class ProductController {
 
         List<Product> productList = productRepository.findAll();
 
+        ProductUtil.ProductSumary productSumary = ProductUtil.productSumary(productList);
+
         model.addAttribute("productList", productList);
-        return "product_list";
+        model.addAttribute("productSumary", productSumary);
+
+        return "/product_list";
     }
 
     @RequestMapping("/del")

@@ -4,7 +4,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 
-import com.jin.fudai.dto.SaleOrder;
+import com.jin.fudai.dto.SaleOrderDto;
 import freemarker.template.Configuration;
 import freemarker.template.DefaultObjectWrapper;
 import freemarker.template.Template;
@@ -14,7 +14,7 @@ import freemarker.template.TemplateExceptionHandler;
 public class FreeMarkerHelper {
 	private static final Configuration cfg;
 	private static final String TEMPLATE_NAME = "fudai_sale_order.ftl";
-	private static final String FTL_DIR = "/ftl";
+	private static final String FTL_DIR = "/templates";
 	private static final String TARGET_DIR = FreeMarkerHelper.class.getClassLoader().getResource("doc/").getPath();
 
 	static
@@ -42,7 +42,7 @@ public class FreeMarkerHelper {
 		return null;
 	}
 
-	private static void process(String targetFileName, SaleOrder dataModel)
+	public static void process(String targetFileName, SaleOrderDto dataModel)
 	{
 		try
 		{
@@ -55,7 +55,7 @@ public class FreeMarkerHelper {
 		}
 	}
 	public static void main(String[] args) throws Exception {
-		SaleOrder saleOrder = new SaleOrder();
+		SaleOrderDto saleOrder = new SaleOrderDto(null);
 
 		process("zhansan3.docx", saleOrder);
 

@@ -20,11 +20,12 @@ function changeLeft(mid){
 
 
 <div class="side" id="left_frame">
-	<iframe id="left_frameMenu" src="left_menu" marginwidth="0" height="100%" marginheight="0" align="left" scrolling="No" frameborder="0" name="left"></iframe>
+	<iframe id="left_frameMenu" src="/left_menu" marginwidth="0" height="100%" marginheight="0" align="left"
+			scrolling="No" frameborder="0" name="left"></iframe>
 </div>
 
 <div class="main" id="right_frame">
-	<iframe src="" name="mainFrame" class="rightIframe" align="top" scrolling="Auto" frameborder="0" id="mainFrame" ></iframe>
+	<iframe src="/right_menu" name="mainFrame" class="rightIframe" align="top" scrolling="Auto" frameborder="0" id="mainFrame" ></iframe>
 </div>
 
 <div class="arrow" id="slide" onclick=switchSysBar()></div>

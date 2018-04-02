@@ -56,26 +56,27 @@ public class SaleOrder {
      * 已付订金
      */
     @Column(name = "deposit")
-    private String deposit;
+    private long deposit = 0L;
 
     /**
      * 贷款总额
      */
     @Column(name = "loans_price")
-    private String loansPrice;
+    private long loansPrice = 0L;
     /**
      * 原价
      */
     @Column(name = "original_price")
-    private String originalPrice;
+    private long originalPrice = 0L;
     /**
      * 实际支付价格
      */
     @Column(name = "actual_price")
-    private String actualPrice;
+    private long actualPrice = 0L;
 
 
-    @OneToMany(mappedBy = "order")
+    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
+
     private List<SaleOrderDetail> details;
 
     public long getId() {
@@ -126,22 +127,6 @@ public class SaleOrder {
         this.date = date;
     }
 
-    public String getDeposit() {
-        return deposit;
-    }
-
-    public void setDeposit(String deposit) {
-        this.deposit = deposit;
-    }
-
-    public List<SaleOrderDetail> getDetails() {
-        return details;
-    }
-
-    public void setDetails(List<SaleOrderDetail> details) {
-        this.details = details;
-    }
-
     public long getCrtDt() {
         return crtDt;
     }
@@ -150,27 +135,43 @@ public class SaleOrder {
         this.crtDt = crtDt;
     }
 
-    public String getLoansPrice() {
+    public long getDeposit() {
+        return deposit;
+    }
+
+    public void setDeposit(long deposit) {
+        this.deposit = deposit;
+    }
+
+    public long getLoansPrice() {
         return loansPrice;
     }
 
-    public void setLoansPrice(String loansPrice) {
+    public void setLoansPrice(long loansPrice) {
         this.loansPrice = loansPrice;
     }
 
-    public String getOriginalPrice() {
+    public long getOriginalPrice() {
         return originalPrice;
     }
 
-    public void setOriginalPrice(String originalPrice) {
+    public void setOriginalPrice(long originalPrice) {
         this.originalPrice = originalPrice;
     }
 
-    public String getActualPrice() {
+    public long getActualPrice() {
         return actualPrice;
     }
 
-    public void setActualPrice(String actualPrice) {
+    public void setActualPrice(long actualPrice) {
         this.actualPrice = actualPrice;
+    }
+
+    public List<SaleOrderDetail> getDetails() {
+        return details;
+    }
+
+    public void setDetails(List<SaleOrderDetail> details) {
+        this.details = details;
     }
 }

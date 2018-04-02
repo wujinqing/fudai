@@ -85,11 +85,18 @@
 
               function addProduct() {
 
-                  var form = document.getElementById("form1");
+                  var form = document.getElementById("form");
 
                   document.getElementById("msg").innerHTML = "正在提交，请稍后...";
                   form.submit();
 
+              }
+
+              function forthStep(){
+                  var form = document.getElementById("form1");
+
+                  document.getElementById("msg").innerHTML = "正在提交，请稍后...";
+                  form.submit();
               }
 
               function ch() {
@@ -132,15 +139,15 @@
         </script>
     </head>
     <body class="mainbody">
-    <form method="post" id="form1" name="form1" action="/order/add_product">
+    <form method="post" id="form1" name="form1" action="/order/forth">
         <input type="hidden" id="orderId" name="orderId" value="${(order.id)!}">
     </form>
 
-    	<@u.form_bar title='计算价格'>
-    	<form id="form" name="form" action="/order/third" method="post" enctype="multipart/form-data">
+    	<@u.form_bar title='添加产品'>
+    	<form id="form" name="form" action="/order/add_product" method="post" enctype="multipart/form-data">
     	<input type="hidden" id="idAmount" name="idAmount" value=""/>
     	<input type="hidden" id="flush" name="flush" value="true">
-    	<input type="hidden" id="id" name="id" value="${order.id!}">
+    	<input type="hidden" id="id" name="orderId" value="${order.id!}">
 
     	<table>
 
@@ -148,15 +155,14 @@
             <tr>
                 <td width="15%" class="txtRight">选择产品：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-                    <select id="member_qjScore" name="name" onchange="ch()">
+                    <select id="member_qjScore" name="productId" onchange="ch()">
+                        <option value="">---请选择---</option>
 						<#if productList??>
 							<#list productList as product>
-								<option value="${(product.name)!}" pid="${(product.id)!}" price="${(product.price)!}">
+								<option value="${(product.id)!}" pid="${(product.id)!}" price="${(product.price)?c!}">
 								【${(product.name)!}】-【${(product.style)!}】-【${(product.color)!}】
 								</option>
 							</#list>
-						<#else>
-							<option value="">---请选择---</option>
 						</#if>
                     </select>
 				</td>
@@ -164,25 +170,25 @@
             <tr>
                 <td width="15%" class="txtRight">单价：</td>
                 <td colspan="3" width="35%" class="txtLeft" >
-                    <input type="text" style="width:50%; border: hidden" id="productPrice"  readonly="readonly" name="order.date" value="0">
+                    <input type="text" style="width:50%; border: hidden" id="productPrice"  readonly="readonly" name="price" value="0">
                 </td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">数量：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-                    <input type="text" style="width:50%"  id="productAmount" name="order.date" value="0" onkeyup="changeNums()">
+                    <input type="text" style="width:10%"  id="productAmount" name="amount" value="0" onkeyup="changeNums()">
                 </td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">原价：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%; border: hidden" id="originalPrice"  readonly="readonly" name="order.customerName" value="0">
+					<input type="text" style="width:50%; border: hidden" id="originalPrice"  readonly="readonly" name="originalPrice" value="0">
 				</td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">实际价格：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  id="actualPrice" name="order.customerPhoneNumber" value="0">
+					<input type="text" style="width:20%"  id="actualPrice" name="actualPrice" value="0">
 				</td>
             </tr>
 
@@ -193,7 +199,7 @@
                 <td colspan="4">
                     <input type="button" class="btn_bg" value="添加产品" onClick="addProduct()">
 
-                    <input type="button" class="btn_bg" value="下一步，计算价格" onClick="save('${(order.parentId)!}','${(order.id)!}')">
+                    <input type="button" class="btn_bg" value="下一步，计算价格" onClick="forthStep()">
                     <span id="msg" style="color:red"></span>
                 </td>
             </tr>
@@ -211,25 +217,31 @@
                     <th>颜色</th>
                     <th>单位</th>
                     <th>单价</th>
+                    <th>数量</th>
+                    <th>原价</th>
+                    <th>实际价格</th>
                     <th>操作</th>
                 </tr>
-			<#if productList??>
-				<#list productList as product>
+			<#if (order.details)??>
+				<#list order.details as detail>
                     <tr>
-                        <td>${(product_index+1)}</td>
-                        <td>${(product.name)!}</td>
-                        <td>${(product.style)!}</td>
-                        <td>${(product.color)!}</td>
-                        <td>${(product.unit)!}</td>
-                        <td>${(product.price)!}</td>
+                        <td>${(detail_index+1)}</td>
+                        <td>${(detail.name)!}</td>
+                        <td>${(detail.style)!}</td>
+                        <td>${(detail.color)!}</td>
+                        <td>${(detail.unit)!}</td>
+                        <td>${(detail.price)!}</td>
+                        <td>${(detail.amount)!}</td>
+                        <td>${(detail.originalPrice)!}</td>
+                        <td>${(detail.actualPrice)!}</td>
                         <td>
-                            <a href="javascript:edit(${product.id})">修改</a> |
-                            <a href="javascript:del(${product.id})" class="font_red">删除</a>
+                            <a href="javascript:edit(${detail.id})">修改</a> |
+                            <a href="javascript:del(${detail.id})" class="font_red">删除</a>
                         </td>
                     </tr>
 				</#list>
 			<#else>
-                <tr><td colspan="7">暂无记录</td></tr>
+                <tr><td colspan="10">暂无记录</td></tr>
 			</#if>
             </table>
         </div>

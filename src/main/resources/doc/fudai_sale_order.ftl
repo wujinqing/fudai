@@ -1242,7 +1242,20 @@
                                                     </w:rPr>
                                                     <w:t>福代防盗门</w:t>
                                                 </w:r>
-
+                                                <w:r>
+                                                    <w:rPr>
+                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
+                                                        <w:b w:val="0"/>
+                                                        <w:bCs/>
+                                                        <w:i w:val="0"/>
+                                                        <w:iCs/>
+                                                        <w:color w:val="000000"/>
+                                                        <w:sz w:val="15"/>
+                                                        <w:szCs w:val="15"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
+                                                    </w:rPr>
+                                                    <w:t>(标配21号拉手)</w:t>
+                                                </w:r>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>

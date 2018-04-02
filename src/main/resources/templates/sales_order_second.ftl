@@ -95,31 +95,31 @@
             <tr>
                 <td width="15%" class="txtRight">订单号：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="order.orderNo" value="${order.orderNo!}">
+					<input type="text" style="width:50%"  name="orderNo" value="${order.orderNo!}">
 				</td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">下单日期：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-                    <input type="text" style="width:50%"  name="order.date" value="${order.date!}">
+                    <input type="text" style="width:50%"  name="date" value="${order.date!}">
                 </td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">客户姓名：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="order.customerName" value="${order.customerName!}">
+					<input type="text" style="width:50%"  name="customerName" value="${order.customerName!}">
 				</td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">联系电话：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="order.customerPhoneNumber" value="${order.customerPhoneNumber!}">
+					<input type="text" style="width:50%"  name="customerPhoneNumber" value="${order.customerPhoneNumber!}">
 				</td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">联系地址：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="order.customerAddress" value="${order.customerAddress!}">
+					<input type="text" style="width:50%"  name="customerAddress" value="${order.customerAddress!}">
 				</td>
             </tr>
 

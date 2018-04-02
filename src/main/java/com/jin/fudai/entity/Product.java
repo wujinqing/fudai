@@ -46,7 +46,7 @@ public class Product {
      * 单价
      */
     @Column(name = "price")
-    private String price;
+    private long price;
 
     public long getId() {
         return id;
@@ -88,11 +88,11 @@ public class Product {
         this.unit = unit;
     }
 
-    public String getPrice() {
+    public long getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(long price) {
         this.price = price;
     }
 }

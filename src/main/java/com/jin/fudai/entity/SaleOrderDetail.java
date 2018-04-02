@@ -19,7 +19,7 @@ public class SaleOrderDetail {
     private long id;
 
     /**
-     * SaleOrder.id
+     * SaleOrderDto.id
      */
     @ManyToOne
     private SaleOrder order;
@@ -58,24 +58,24 @@ public class SaleOrderDetail {
      * 单价
      */
     @Column(name = "price")
-    private String price;
+    private long price = 0L;
 
     /**
      * 数量
      */
     @Column(name = "amount")
-    private String amount;
+    private long amount = 0L;
 
     /**
      * 原价
      */
     @Column(name = "original_price")
-    private String originalPrice;
+    private long originalPrice = 0L;
     /**
      * 实际支付价格
      */
     @Column(name = "actual_price")
-    private String actualPrice;
+    private long actualPrice = 0L;
 
     public long getId() {
         return id;
@@ -133,35 +133,35 @@ public class SaleOrderDetail {
         this.unit = unit;
     }
 
-    public String getPrice() {
+    public long getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(long price) {
         this.price = price;
     }
 
-    public String getAmount() {
+    public long getAmount() {
         return amount;
     }
 
-    public void setAmount(String amount) {
+    public void setAmount(long amount) {
         this.amount = amount;
     }
 
-    public String getOriginalPrice() {
+    public long getOriginalPrice() {
         return originalPrice;
     }
 
-    public void setOriginalPrice(String originalPrice) {
+    public void setOriginalPrice(long originalPrice) {
         this.originalPrice = originalPrice;
     }
 
-    public String getActualPrice() {
+    public long getActualPrice() {
         return actualPrice;
     }
 
-    public void setActualPrice(String actualPrice) {
+    public void setActualPrice(long actualPrice) {
         this.actualPrice = actualPrice;
     }
 }

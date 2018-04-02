@@ -58,7 +58,7 @@
 	 <input type="hidden" id="productId" name="productId">
 	 <input type="hidden" id="productName" name="productName">
 </form>
- <@u.title_bar title="${(product.name)!'产品'}列表">
+ <@u.title_bar title="产品列表">
 
     	<@u.title_bar_btn type="new" onclick="add();"/>
 
@@ -75,7 +75,7 @@
                 <#if productSumary??>
                 <#if productSumary.productNames??>
                     <#list productSumary.productNames as name>
-                            <option value="${name}">${name}</option>
+                            <option value="${name}" <#if (product.name)?? && product.name == name> selected </#if>>${name}</option>
                     </#list>
                 </#if>
                 </#if>
@@ -91,7 +91,7 @@
                 <#if productSumary??>
                     <#if productSumary.productStyles??>
                         <#list productSumary.productStyles as style>
-                            <option value="${style}">${style}</option>
+                            <option value="${style}" <#if (product.style)?? && product.style == style> selected </#if> >${style}</option>
                         </#list>
                     </#if>
                 </#if>
@@ -107,7 +107,7 @@
                 <#if productSumary??>
                     <#if productSumary.productColors??>
                         <#list productSumary.productColors as color>
-                            <option value="${color}">${color}</option>
+                            <option value="${color}" <#if (product.color)?? && product.color == color> selected </#if> >${color}</option>
                         </#list>
                     </#if>
                 </#if>

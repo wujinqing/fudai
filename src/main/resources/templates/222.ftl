@@ -126,13 +126,12 @@
                                 </w:tcPr>
                                 <w:p>
                                     <w:pPr>
+                                        <w:widowControl w:val="0"/>
                                         <w:jc w:val="left"/>
                                         <w:rPr>
                                             <w:vertAlign w:val="baseline"/>
                                         </w:rPr>
                                     </w:pPr>
-                                    <w:bookmarkStart w:id="0" w:name="_GoBack"/>
-                                    <w:bookmarkEnd w:id="0"/>
                                     <w:r>
                                         <w:pict>
                                             <v:shape id="图片 3" o:spid="_x0000_s1036" o:spt="75"
@@ -184,10 +183,10 @@
                                         <w:gridCol w:w="658"/>
                                         <w:gridCol w:w="803"/>
                                         <w:gridCol w:w="1016"/>
-                                        <w:gridCol w:w="1017"/>
+                                        <w:gridCol w:w="617"/>
+                                        <w:gridCol w:w="400"/>
                                         <w:gridCol w:w="1"/>
-                                        <w:gridCol w:w="399"/>
-                                        <w:gridCol w:w="594"/>
+                                        <w:gridCol w:w="993"/>
                                         <w:gridCol w:w="1854"/>
                                     </w:tblGrid>
                                     <w:tr>
@@ -201,12 +200,6 @@
                                                 <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
                                             </w:tblBorders>
                                             <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
                                         </w:tblPrEx>
                                         <w:trPr>
                                             <w:trHeight w:val="828" w:hRule="atLeast"/>
@@ -269,11 +262,13 @@
                                                         <w:szCs w:val="86"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${titleText}</w:t>
+                                                    <w:t>福代门业销售订单</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
                                     </w:tr>
+
+
                                     <w:tr>
                                         <w:tblPrEx>
                                             <w:tblBorders>
@@ -320,8 +315,8 @@
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
-                                                <w:tcW w:w="4953" w:type="dxa"/>
-                                                <w:gridSpan w:val="7"/>
+                                                <w:tcW w:w="4153" w:type="dxa"/>
+                                                <w:gridSpan w:val="5"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -368,8 +363,8 @@
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
-                                                <w:tcW w:w="2448" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
+                                                <w:tcW w:w="3248" w:type="dxa"/>
+                                                <w:gridSpan w:val="4"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -420,6 +415,13 @@
                                             </w:p>
                                         </w:tc>
                                     </w:tr>
+
+
+
+
+
+
+
                                     <w:tr>
                                         <w:tblPrEx>
                                             <w:tblBorders>
@@ -477,7 +479,7 @@
                                                         <w:szCs w:val="22"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${mainBusinessText}</w:t>
+                                                    <w:t>主营：防盗门、别墅门、铜门、推拉门、卫浴门、断桥推拉窗、室内烤漆门、进口橡木门及智能指纹锁</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -539,7 +541,7 @@
                                                         <w:szCs w:val="28"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${customerNameText}${customerName}</w:t>
+                                                    <w:t>客户姓名：吴晋清</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -591,7 +593,7 @@
                                                         <w:szCs w:val="23"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${dateText}${date}</w:t>
+                                                    <w:t>日期：2018年03月27日</w:t>
                                                 </w:r>
                                             </w:p>
                                             <w:p>
@@ -631,7 +633,7 @@
                                                         <w:szCs w:val="23"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${addressText}</w:t>
+                                                    <w:t>地址：江西省会昌县月亮湾新区天玺湾建材街21-22号</w:t>
                                                 </w:r>
                                             </w:p>
                                             <w:p>
@@ -672,7 +674,7 @@
                                                         <w:szCs w:val="23"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${phoneNumberText}</w:t>
+                                                    <w:t>电话：18707071918 (余成长生) 18770798980 (吴长秀)</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -734,7 +736,7 @@
                                                         <w:szCs w:val="28"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${customerPhoneNumberText}${customerPhoneNumber}</w:t>
+                                                    <w:t>联系电话：15021083134</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -824,7 +826,7 @@
                                                         <w:szCs w:val="28"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${customerAddressText}${customerAddress}</w:t>
+                                                    <w:t>联系地址：上海市</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -909,7 +911,7 @@
                                                         <w:szCs w:val="24"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${productNoText}</w:t>
+                                                    <w:t>编号</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -939,7 +941,7 @@
                                                         <w:szCs w:val="28"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${productNameText}</w:t>
+                                                    <w:t>品名</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -970,7 +972,7 @@
                                                         <w:szCs w:val="28"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${productStyleText}</w:t>
+                                                    <w:t>款式</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1004,7 +1006,7 @@
                                                         <w:szCs w:val="28"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${productColorText}</w:t>
+                                                    <w:t>颜色</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1037,13 +1039,14 @@
                                                         <w:szCs w:val="28"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${productUnitText}</w:t>
+                                                    <w:t>单位</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="1017" w:type="dxa"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:vAlign w:val="center"/>
                                             </w:tcPr>
                                             <w:p>
@@ -1070,14 +1073,14 @@
                                                         <w:szCs w:val="28"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${productNumsText}</w:t>
+                                                    <w:t>数量</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:vAlign w:val="center"/>
                                             </w:tcPr>
                                             <w:p>
@@ -1104,7 +1107,7 @@
                                                         <w:szCs w:val="28"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${productPriceText}</w:t>
+                                                    <w:t>单价</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1137,7 +1140,7 @@
                                                         <w:szCs w:val="28"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${productTotalPriceText}</w:t>
+                                                    <w:t>金额</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1240,21 +1243,7 @@
                                                         <w:szCs w:val="18"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>福代防盗门</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="15"/>
-                                                        <w:szCs w:val="15"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>(标配21号拉手)</w:t>
+                                                    <w:t>宇晖尊贵系列卫浴门</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1297,7 +1286,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>FD-918</w:t>
+                                                    <w:t>YH-8226</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1329,7 +1318,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>木纹转印</w:t>
+                                                    <w:t>香槟金</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1367,6 +1356,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="1017" w:type="dxa"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcMar>
                                                     <w:top w:w="0" w:type="dxa"/>
                                                 </w:tcMar>
@@ -1391,14 +1381,14 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>7</w:t>
+                                                    <w:t>1</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcMar>
                                                     <w:top w:w="0" w:type="dxa"/>
                                                 </w:tcMar>
@@ -1423,7 +1413,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>1680</w:t>
+                                                    <w:t>900</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1454,7 +1444,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>￥11760元</w:t>
+                                                    <w:t>900</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1542,7 +1532,7 @@
                                                         <w:color w:val="000000"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                 </w:pPr>
                                                 <w:r>
@@ -1555,23 +1545,9 @@
                                                         <w:color w:val="000000"/>
                                                         <w:sz w:val="18"/>
                                                         <w:szCs w:val="18"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>古斯特防盗门</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="16"/>
-                                                        <w:szCs w:val="16"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>(惠氏智能锁)</w:t>
+                                                    <w:t>宇晖尊贵系列卫浴门</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1614,7 +1590,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>GST-116</w:t>
+                                                    <w:t>YH-8226</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1636,7 +1612,7 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                 </w:pPr>
                                                 <w:r>
@@ -1644,9 +1620,9 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>印度孔雀木</w:t>
+                                                    <w:t>香槟金</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1667,7 +1643,7 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                 </w:pPr>
                                                 <w:r>
@@ -1675,7 +1651,7 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                     <w:t>樘</w:t>
                                                 </w:r>
@@ -1684,6 +1660,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="1017" w:type="dxa"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcMar>
                                                     <w:top w:w="0" w:type="dxa"/>
                                                 </w:tcMar>
@@ -1708,14 +1685,14 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>1</w:t>
+                                                    <w:t>3</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcMar>
                                                     <w:top w:w="0" w:type="dxa"/>
                                                 </w:tcMar>
@@ -1740,7 +1717,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>4100</w:t>
+                                                    <w:t>900</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1771,7 +1748,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>￥4100元</w:t>
+                                                    <w:t>2700</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1795,7 +1772,7 @@
                                             </w:tblCellMar>
                                         </w:tblPrEx>
                                         <w:trPr>
-                                            <w:trHeight w:val="98" w:hRule="atLeast"/>
+                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
                                             <w:jc w:val="center"/>
                                         </w:trPr>
                                         <w:tc>
@@ -1859,7 +1836,7 @@
                                                         <w:color w:val="000000"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                 </w:pPr>
                                                 <w:r>
@@ -1872,23 +1849,9 @@
                                                         <w:color w:val="000000"/>
                                                         <w:sz w:val="18"/>
                                                         <w:szCs w:val="18"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>古斯特防盗门</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="14"/>
-                                                        <w:szCs w:val="14"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>(古斯特指纹锁)</w:t>
+                                                    <w:t>福代防盗门(标配21号拉手)</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1931,7 +1894,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>GST-152</w:t>
+                                                    <w:t>FD-918</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -1953,7 +1916,7 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                 </w:pPr>
                                                 <w:r>
@@ -1961,10 +1924,12 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>北美红橡木</w:t>
+                                                    <w:t>木纹转印</w:t>
                                                 </w:r>
+                                                <w:bookmarkStart w:id="0" w:name="_GoBack"/>
+                                                <w:bookmarkEnd w:id="0"/>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>
@@ -1984,7 +1949,7 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                 </w:pPr>
                                                 <w:r>
@@ -1992,7 +1957,7 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                     <w:t>樘</w:t>
                                                 </w:r>
@@ -2001,6 +1966,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="1017" w:type="dxa"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcMar>
                                                     <w:top w:w="0" w:type="dxa"/>
                                                 </w:tcMar>
@@ -2032,7 +1998,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcMar>
                                                     <w:top w:w="0" w:type="dxa"/>
                                                 </w:tcMar>
@@ -2057,7 +2023,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>4700</w:t>
+                                                    <w:t>1680</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -2078,7 +2044,7 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                 </w:pPr>
                                                 <w:r>
@@ -2086,18 +2052,9 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>4700元</w:t>
+                                                    <w:t>1680</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -2185,7 +2142,7 @@
                                                         <w:color w:val="000000"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                 </w:pPr>
                                                 <w:r>
@@ -2196,11 +2153,11 @@
                                                         <w:i w:val="0"/>
                                                         <w:iCs/>
                                                         <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:sz w:val="18"/>
+                                                        <w:szCs w:val="18"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>宇晖尊贵系列卫浴门</w:t>
+                                                    <w:t>古斯特防盗门(惠氏智能锁)</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -2243,317 +2200,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>YH-8226</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1461" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>香槟金</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1016" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>樘</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1017" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>2</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>900</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1854" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>1800元</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                    </w:tr>
-                                    <w:tr>
-                                        <w:tblPrEx>
-                                            <w:tblBorders>
-                                                <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                            </w:tblBorders>
-                                            <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
-                                        </w:tblPrEx>
-                                        <w:trPr>
-                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
-                                            <w:jc w:val="center"/>
-                                        </w:trPr>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="534" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>5</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="2314" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>宇晖尊贵系列卫浴门</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1508" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                    <w:right w:w="216" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>YH-8196</w:t>
+                                                    <w:t>GST-116</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -2585,7 +2232,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>香槟金</w:t>
+                                                    <w:t>印度孔雀木</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -2606,7 +2253,7 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                 </w:pPr>
                                                 <w:r>
@@ -2614,7 +2261,7 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
+                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                     <w:t>樘</w:t>
                                                 </w:r>
@@ -2623,927 +2270,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="1017" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>2</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>890</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1854" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>1780元</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                    </w:tr>
-                                    <w:tr>
-                                        <w:tblPrEx>
-                                            <w:tblBorders>
-                                                <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                            </w:tblBorders>
-                                            <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
-                                        </w:tblPrEx>
-                                        <w:trPr>
-                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
-                                            <w:jc w:val="center"/>
-                                        </w:trPr>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="534" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>6</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="2314" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>宇晖尊贵系列卫浴门</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1508" w:type="dxa"/>
                                                 <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                    <w:right w:w="216" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>YH-688</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1461" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>香槟金</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1016" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>樘</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1017" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>2</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>840</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1854" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>1680元</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                    </w:tr>
-                                    <w:tr>
-                                        <w:tblPrEx>
-                                            <w:tblBorders>
-                                                <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                            </w:tblBorders>
-                                            <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
-                                        </w:tblPrEx>
-                                        <w:trPr>
-                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
-                                            <w:jc w:val="center"/>
-                                        </w:trPr>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="534" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>7</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="2314" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>宇晖尊贵系列卫浴门</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1508" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                    <w:right w:w="216" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>YH-8210</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1461" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>香槟金</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1016" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>樘</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1017" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>6</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>910</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1854" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥5460元</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                    </w:tr>
-                                    <w:tr>
-                                        <w:tblPrEx>
-                                            <w:tblBorders>
-                                                <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                            </w:tblBorders>
-                                            <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
-                                        </w:tblPrEx>
-                                        <w:trPr>
-                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
-                                            <w:jc w:val="center"/>
-                                        </w:trPr>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="534" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>8</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="2314" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>宇晖尊贵系列卫浴门</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1508" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                    <w:right w:w="216" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>YH-720</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1461" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>香槟金</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1016" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>樘</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1017" w:type="dxa"/>
                                                 <w:tcMar>
                                                     <w:top w:w="0" w:type="dxa"/>
                                                 </w:tcMar>
@@ -3575,7 +2302,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcMar>
                                                     <w:top w:w="0" w:type="dxa"/>
                                                 </w:tcMar>
@@ -3600,7 +2327,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>840</w:t>
+                                                    <w:t>4100</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -3621,253 +2348,6 @@
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
                                                         <w:sz w:val="20"/>
                                                         <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>2520元</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                    </w:tr>
-                                    <w:tr>
-                                        <w:tblPrEx>
-                                            <w:tblBorders>
-                                                <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                            </w:tblBorders>
-                                            <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
-                                        </w:tblPrEx>
-                                        <w:trPr>
-                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
-                                            <w:jc w:val="center"/>
-                                        </w:trPr>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="534" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>9</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="2314" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>宇晖尊贵系列卫浴门</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1508" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                    <w:right w:w="216" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>YH-8241</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1461" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>香槟金</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1016" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>樘</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1017" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
                                                 </w:pPr>
@@ -3878,1609 +2358,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>3</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>840</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1854" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>2520元</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                    </w:tr>
-                                    <w:tr>
-                                        <w:tblPrEx>
-                                            <w:tblBorders>
-                                                <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                            </w:tblBorders>
-                                            <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
-                                        </w:tblPrEx>
-                                        <w:trPr>
-                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
-                                            <w:jc w:val="center"/>
-                                        </w:trPr>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="534" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>10</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="2314" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>宇晖尊贵系列卫浴门</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1508" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                    <w:right w:w="216" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>YH-680</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1461" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>香槟金</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1016" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>樘</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1017" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>3</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>840</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1854" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>2520元</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                    </w:tr>
-                                    <w:tr>
-                                        <w:tblPrEx>
-                                            <w:tblBorders>
-                                                <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                            </w:tblBorders>
-                                            <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
-                                        </w:tblPrEx>
-                                        <w:trPr>
-                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
-                                            <w:jc w:val="center"/>
-                                        </w:trPr>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="534" w:type="dxa"/>
-                                                <w:vMerge w:val="restart"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>11</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="2314" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>宇晖尊贵三轨推拉门</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1508" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                    <w:right w:w="216" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>YH-8128</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1461" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>香槟金</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1016" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>㎡</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1017" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>3.58</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>870</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1854" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>3350元</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                    </w:tr>
-                                    <w:tr>
-                                        <w:tblPrEx>
-                                            <w:tblBorders>
-                                                <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                            </w:tblBorders>
-                                            <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
-                                        </w:tblPrEx>
-                                        <w:trPr>
-                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
-                                            <w:jc w:val="center"/>
-                                        </w:trPr>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="534" w:type="dxa"/>
-                                                <w:vMerge w:val="continue"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="2314" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>宇晖尊贵系列单包套</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1508" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                    <w:right w:w="216" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>——</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1461" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>香槟金</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1016" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>米</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1017" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>6.16</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>80</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1854" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>493元</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                    </w:tr>
-                                    <w:tr>
-                                        <w:tblPrEx>
-                                            <w:tblBorders>
-                                                <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                            </w:tblBorders>
-                                            <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
-                                        </w:tblPrEx>
-                                        <w:trPr>
-                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
-                                            <w:jc w:val="center"/>
-                                        </w:trPr>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="534" w:type="dxa"/>
-                                                <w:vMerge w:val="restart"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>12</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="2314" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>宇晖尊贵两轨推拉门</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1508" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                    <w:right w:w="216" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>YH-8150</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1461" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>香槟金</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1016" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>㎡</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1017" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>3.82</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>730</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1854" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>2789元</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                    </w:tr>
-                                    <w:tr>
-                                        <w:tblPrEx>
-                                            <w:tblBorders>
-                                                <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:right w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                                <w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>
-                                            </w:tblBorders>
-                                            <w:tblLayout w:type="fixed"/>
-                                            <w:tblCellMar>
-                                                <w:top w:w="0" w:type="dxa"/>
-                                                <w:left w:w="115" w:type="dxa"/>
-                                                <w:bottom w:w="0" w:type="dxa"/>
-                                                <w:right w:w="115" w:type="dxa"/>
-                                            </w:tblCellMar>
-                                        </w:tblPrEx>
-                                        <w:trPr>
-                                            <w:trHeight w:val="90" w:hRule="atLeast"/>
-                                            <w:jc w:val="center"/>
-                                        </w:trPr>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="534" w:type="dxa"/>
-                                                <w:vMerge w:val="continue"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="2314" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>宇晖尊贵系列双包套</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1508" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                    <w:right w:w="216" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b w:val="0"/>
-                                                        <w:bCs/>
-                                                        <w:i w:val="0"/>
-                                                        <w:iCs/>
-                                                        <w:color w:val="000000"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>——</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1461" w:type="dxa"/>
-                                                <w:gridSpan w:val="2"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>香槟金</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1016" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>米</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1017" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="center"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>6.58</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>180</w:t>
-                                                </w:r>
-                                            </w:p>
-                                        </w:tc>
-                                        <w:tc>
-                                            <w:tcPr>
-                                                <w:tcW w:w="1854" w:type="dxa"/>
-                                                <w:tcMar>
-                                                    <w:top w:w="0" w:type="dxa"/>
-                                                </w:tcMar>
-                                                <w:vAlign w:val="center"/>
-                                            </w:tcPr>
-                                            <w:p>
-                                                <w:pPr>
-                                                    <w:pStyle w:val="10"/>
-                                                    <w:spacing w:line="360" w:lineRule="auto"/>
-                                                    <w:jc w:val="left"/>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                </w:pPr>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>￥</w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:sz w:val="20"/>
-                                                        <w:szCs w:val="20"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t>1181元</w:t>
+                                                    <w:t>12300</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -5536,7 +2414,7 @@
                                                         <w:szCs w:val="26"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${depositText}￥</w:t>
+                                                    <w:t>已付订金：￥</w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -5546,7 +2424,7 @@
                                                         <w:u w:val="single"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t xml:space="preserve">${deposit}</w:t>
+                                                    <w:t>1000</w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -5755,7 +2633,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="5003" w:type="dxa"/>
-                                                <w:gridSpan w:val="7"/>
+                                                <w:gridSpan w:val="8"/>
                                                 <w:tcBorders>
                                                     <w:left w:val="nil"/>
                                                     <w:bottom w:val="nil"/>
@@ -5786,7 +2664,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankName1Text}</w:t>
+                                                    <w:t>中国建设银行账号：</w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -5795,14 +2673,14 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankAcount1Text}</w:t>
+                                                    <w:t>6236 6821 2000 2520 059</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="2847" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcBorders>
                                                     <w:left w:val="nil"/>
                                                     <w:bottom w:val="nil"/>
@@ -5832,7 +2710,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankAcountName1Text}</w:t>
+                                                    <w:t>户名：余成长生</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -5891,14 +2769,14 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankAcountText}</w:t>
+                                                    <w:t>银行账户：</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="5003" w:type="dxa"/>
-                                                <w:gridSpan w:val="7"/>
+                                                <w:gridSpan w:val="8"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -5930,7 +2808,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankName2Text}</w:t>
+                                                    <w:t>中国 银 行 账 号：</w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -5939,14 +2817,14 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankAcount2Text}</w:t>
+                                                    <w:t>6217 9065 0002 9816 228</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="2847" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -5975,7 +2853,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankAcountName2Text}</w:t>
+                                                    <w:t>户名：余成长生</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -6032,7 +2910,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="5003" w:type="dxa"/>
-                                                <w:gridSpan w:val="7"/>
+                                                <w:gridSpan w:val="8"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -6064,7 +2942,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankName3Text}</w:t>
+                                                    <w:t>江西省农村信用社：</w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -6073,14 +2951,14 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankAcount3Text}</w:t>
+                                                    <w:t>6226 8220 1460 2474 829</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="2847" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -6111,7 +2989,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankAcountName3Text}</w:t>
+                                                    <w:t>户名：余成长生</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -6167,7 +3045,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="5003" w:type="dxa"/>
-                                                <w:gridSpan w:val="7"/>
+                                                <w:gridSpan w:val="8"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -6198,7 +3076,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankName4Text}</w:t>
+                                                    <w:t>中国邮政储蓄银行：</w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -6207,14 +3085,14 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankAcount4Text}</w:t>
+                                                    <w:t>6217 9942 8000 4623 047</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="2847" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -6242,7 +3120,7 @@
                                                         <w:szCs w:val="20"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${bankAcountName4Text}</w:t>
+                                                    <w:t>户名：余成长生</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -6299,7 +3177,7 @@
                                                         <w:szCs w:val="26"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${totalPriceText}￥</w:t>
+                                                    <w:t>货款总额：￥</w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -6309,7 +3187,7 @@
                                                         <w:u w:val="single"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t xml:space="preserve">${totalPrice}</w:t>
+                                                    <w:t>3000</w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -6525,7 +3403,7 @@
                                                         <w:szCs w:val="24"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${customerSignRemarkText}</w:t>
+                                                    <w:t>此单未付款客户签名作为欠条</w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -6570,7 +3448,7 @@
                                                         <w:szCs w:val="44"/>
                                                         <w:lang w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t>${customerSignText}</w:t>
+                                                    <w:t>客户签名：</w:t>
                                                 </w:r>
                                             </w:p>
                                         </w:tc>
@@ -6578,6 +3456,7 @@
                                 </w:tbl>
                                 <w:p>
                                     <w:pPr>
+                                        <w:widowControl w:val="0"/>
                                         <w:tabs>
                                             <w:tab w:val="left" w:pos="608"/>
                                         </w:tabs>
@@ -6667,8 +3546,8 @@
                 <dcterms:created xsi:type="dcterms:W3CDTF">2017-11-21T16:54:00Z</dcterms:created>
                 <dc:creator>余成长生</dc:creator>
                 <cp:lastModifiedBy>2398981863</cp:lastModifiedBy>
-                <cp:lastPrinted>2017-11-25T03:51:35Z</cp:lastPrinted>
-                <dcterms:modified xsi:type="dcterms:W3CDTF">2018-03-21T02:06:28Z</dcterms:modified>
+                <cp:lastPrinted>2017-11-25T03:51:00Z</cp:lastPrinted>
+                <dcterms:modified xsi:type="dcterms:W3CDTF">2018-04-03T09:46:53Z</dcterms:modified>
             </cp:coreProperties>
         </pkg:xmlData>
     </pkg:part>
@@ -6768,7 +3647,7 @@
                     <w:charset w:val="00"/>
                     <w:family w:val="auto"/>
                     <w:pitch w:val="default"/>
-                    <w:sig w:usb0="00000287" w:usb1="00000000" w:usb2="00000000" w:usb3="00000000" w:csb0="2000009F"
+                    <w:sig w:usb0="00000000" w:usb1="00000000" w:usb2="00000000" w:usb3="00000000" w:csb0="2000009F"
                            w:csb1="DFD70000"/>
                 </w:font>
                 <w:font w:name="楷体">
@@ -12056,7 +8935,9 @@
                     <w:rsid w:val="23FB66CF"/>
                     <w:rsid w:val="29D655D9"/>
                     <w:rsid w:val="37736E41"/>
+                    <w:rsid w:val="3B1D6FAA"/>
                     <w:rsid w:val="43222BF6"/>
+                    <w:rsid w:val="45CF6BFC"/>
                     <w:rsid w:val="466B7DB9"/>
                     <w:rsid w:val="490415DB"/>
                     <w:rsid w:val="4AFC43B8"/>
@@ -12064,6 +8945,7 @@
                     <w:rsid w:val="5DED4863"/>
                     <w:rsid w:val="5E936A64"/>
                     <w:rsid w:val="61AE59FC"/>
+                    <w:rsid w:val="628912C2"/>
                     <w:rsid w:val="637C372B"/>
                     <w:rsid w:val="681C6411"/>
                     <w:rsid w:val="6A01351C"/>
@@ -12088,7 +8970,10 @@
                                     w:followedHyperlink="followedHyperlink"/>
                 <w:doNotIncludeSubdocsInStats/>
                 <w:shapeDefaults>
-                    <o:shapedefaults/>
+                    <o:shapedefaults fillcolor="#FFFFFF" fill="t" stroke="t">
+                        <v:fill on="t" focussize="0,0"/>
+                        <v:stroke color="#000000"/>
+                    </o:shapedefaults>
                     <o:shapelayout v:ext="edit">
                         <o:idmap v:ext="edit" data="1"/>
                     </o:shapelayout>
@@ -12505,7 +9390,6 @@
                     <w:semiHidden/>
                     <w:uiPriority w:val="0"/>
                     <w:tblPr>
-                        <w:tblStyle w:val="4"/>
                         <w:tblLayout w:type="fixed"/>
                         <w:tblCellMar>
                             <w:top w:w="0" w:type="dxa"/>
@@ -12524,7 +9408,6 @@
                         <w:jc w:val="both"/>
                     </w:pPr>
                     <w:tblPr>
-                        <w:tblStyle w:val="4"/>
                         <w:tblBorders>
                             <w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>
                             <w:left w:val="single" w:color="auto" w:sz="4" w:space="0"/>

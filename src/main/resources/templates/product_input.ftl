@@ -23,15 +23,35 @@
         	})
 
         	function doCheck(){
-        		var types = document.getElementsByName("sale_type");
-        		var check = "";
-        		for(var i=0;i<types.length;i++){
-        			if(types[i].checked){
-        				check = check + types[i].value + ",";
-        			}
-        		}
-        		var st = check.substring(0,check.length-1);
-        		document.getElementById("product.salesType").value = st;
+
+        		var productName = document.getElementById("product.name").value;
+        		var productStyle = document.getElementById("product.style").value;
+        		var productColor = document.getElementById("product.color").value;
+        		var productUnit = document.getElementById("product.unit").value;
+        		var productPrice = document.getElementById("product.price").value;
+
+                if(productName ==""){
+                    alert("请填写品名！");
+                    return;
+                }
+
+                if(productStyle ==""){
+                    alert("请填写款式！");
+                    return;
+                }
+                if(productColor ==""){
+                    alert("请填写颜色！");
+                    return;
+                }
+                if(productUnit ==""){
+                    alert("请填写单位！");
+                    return;
+                }
+                if(productPrice ==""){
+                    alert("请填写单价！");
+                    return;
+                }
+
         	}
 
 
@@ -84,7 +104,7 @@
     </head>
     <body class="mainbody">
     	<@u.form_bar title='${(product.id??)?string("编辑商品","新建商品")}'>
-    	<form id="form" name="form" action="/product/save" method="post" enctype="multipart/form-data">
+    	<form id="form" name="form" onsubmit="doCheck()" action="/product/save" method="post" enctype="multipart/form-data">
     	<input type="hidden" id="idAmount" name="idAmount" value=""/>
     	<input type="hidden" id="flush" name="flush" value="true">
     	<input type="hidden" id="id" name="id" value="${product.id!}">
@@ -95,31 +115,31 @@
             <tr>
                 <td width="15%" class="txtRight">品名：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="name" value="${product.name!}">
+					<input type="text" style="width:50%"  name="name" id="product.name" value="${product.name!}">
 				</td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">款式：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="style" value="${product.style!}">
+					<input type="text" style="width:50%"  name="style" id="product.style" value="${product.style!}">
 				</td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">颜色：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="color" value="${product.color!}">
+					<input type="text" style="width:50%"  name="color" id="product.color" value="${product.color!}">
 				</td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">单位：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="unit" value="${product.unit!}">
+					<input type="text" style="width:50%"  name="unit" id="product.unit" value="${product.unit!}">
 				</td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">单价：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%"  name="price" value="${product.price!}">
+					<input type="text" style="width:50%"  name="price" id="product.price" value="${product.price!}">
 				</td>
             </tr>
 

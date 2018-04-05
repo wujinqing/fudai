@@ -32,25 +32,25 @@
             <tr>
                 <td width="15%" class="txtRight">已付订金：</td>
                 <td colspan="3" width="35%" class="txtLeft" >
-                    <input type="text" style="width:10%" id="deposit"  name="deposit" value="0">
+                    <input type="text" style="width:10%" id="deposit"  name="deposit" value="${(order.deposit)?c!}">
                 </td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">贷款总额：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-                    <input type="text" style="width:10%"  id="loansPrice" name="loansPrice" value="0">
+                    <input type="text" style="width:10%"  id="loansPrice" name="loansPrice" value="${(order.loansPrice)?c!}">
                 </td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">原价：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:50%; border: hidden" id="originalPrice"  readonly="readonly" name="originalPrice" value="${order.originalPrice!}">
+					<input type="text" style="width:50%; border: hidden" id="originalPrice"  readonly="readonly" name="originalPrice" value="${(order.originalPrice)?c!}">
 				</td>
             </tr>
             <tr>
                 <td width="15%" class="txtRight">实际价格：</td>
                 <td colspan="3" width="35%" class="txtLeft">
-					<input type="text" style="width:20%; border: hidden"  id="actualPrice" name="actualPrice" readonly="readonly" value="${order.actualPrice!}">
+					<input type="text" style="width:20%; border: hidden"  id="actualPrice" name="actualPrice" readonly="readonly" value="${(order.actualPrice)?c!}">
 				</td>
             </tr>
 
@@ -59,7 +59,7 @@
 
             <tr>
                 <td colspan="4">
-                    <input type="submit" class="btn_bg" value="完成订单，生成Word合同">
+                    <input type="submit" class="btn_bg" value="完成订单，请到订单列表下载Word文件">
 
                     <span id="msg" style="color:red"></span>
                 </td>

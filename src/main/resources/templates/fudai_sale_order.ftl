@@ -126,13 +126,12 @@
                                 </w:tcPr>
                                 <w:p>
                                     <w:pPr>
+                                        <w:widowControl w:val="0"/>
                                         <w:jc w:val="left"/>
                                         <w:rPr>
                                             <w:vertAlign w:val="baseline"/>
                                         </w:rPr>
                                     </w:pPr>
-                                    <w:bookmarkStart w:id="0" w:name="_GoBack"/>
-                                    <w:bookmarkEnd w:id="0"/>
                                     <w:r>
                                         <w:pict>
                                             <v:shape id="图片 3" o:spid="_x0000_s1036" o:spt="75"
@@ -184,10 +183,10 @@
                                         <w:gridCol w:w="658"/>
                                         <w:gridCol w:w="803"/>
                                         <w:gridCol w:w="1016"/>
-                                        <w:gridCol w:w="1017"/>
+                                        <w:gridCol w:w="617"/>
+                                        <w:gridCol w:w="400"/>
                                         <w:gridCol w:w="1"/>
-                                        <w:gridCol w:w="399"/>
-                                        <w:gridCol w:w="594"/>
+                                        <w:gridCol w:w="993"/>
                                         <w:gridCol w:w="1854"/>
                                     </w:tblGrid>
                                     <w:tr>
@@ -419,6 +418,8 @@
                                                     </w:rPr>
                                                     <w:t>${orderNo}</w:t>
                                                 </w:r>
+                                                <w:bookmarkStart w:id="0" w:name="_GoBack"/>
+                                                <w:bookmarkEnd w:id="0"/>
                                             </w:p>
                                         </w:tc>
                                     </w:tr>
@@ -1049,6 +1050,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="1017" w:type="dxa"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:vAlign w:val="center"/>
                                             </w:tcPr>
                                             <w:p>
@@ -1363,6 +1365,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="1017" w:type="dxa"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcMar>
                                                     <w:top w:w="0" w:type="dxa"/>
                                                 </w:tcMar>
@@ -1394,7 +1397,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="994" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcMar>
                                                     <w:top w:w="0" w:type="dxa"/>
                                                 </w:tcMar>
@@ -1534,17 +1537,12 @@
                                                     </w:rPr>
                                                     <w:t>元 大写：￥</w:t>
                                                 </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="none"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> </w:t>
-                                                </w:r>
+
+
+
+<#if depositUppercase??>
+    <#list depositUppercase as de>
+
                                                 <w:r>
                                                     <w:rPr>
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
@@ -1558,7 +1556,7 @@
                                                         <w:u w:val="single"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t xml:space="preserve"> 壹 </w:t>
+                                                    <w:t xml:space="preserve"> ${(de.upperCaseNumber)!} </w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -1569,112 +1567,14 @@
                                                         <w:u w:val="none"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t xml:space="preserve"> 万  </w:t>
+                                                    <w:t xml:space="preserve"> ${(de.unit)!}  </w:t>
                                                 </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b/>
-                                                        <w:bCs/>
-                                                        <w:i/>
-                                                        <w:iCs/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="single"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 零 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="none"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 仟 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b/>
-                                                        <w:bCs/>
-                                                        <w:i/>
-                                                        <w:iCs/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="single"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 零 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="none"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 佰 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b/>
-                                                        <w:bCs/>
-                                                        <w:i/>
-                                                        <w:iCs/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="single"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 零 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="none"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 拾 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b/>
-                                                        <w:bCs/>
-                                                        <w:i/>
-                                                        <w:iCs/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="single"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 零 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="none"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 元</w:t>
-                                                </w:r>
+
+
+    </#list>
+</#if>
+
+
                                             </w:p>
                                         </w:tc>
                                     </w:tr>
@@ -1731,7 +1631,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="5003" w:type="dxa"/>
-                                                <w:gridSpan w:val="7"/>
+                                                <w:gridSpan w:val="8"/>
                                                 <w:tcBorders>
                                                     <w:left w:val="nil"/>
                                                     <w:bottom w:val="nil"/>
@@ -1778,7 +1678,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="2847" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcBorders>
                                                     <w:left w:val="nil"/>
                                                     <w:bottom w:val="nil"/>
@@ -1874,7 +1774,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="5003" w:type="dxa"/>
-                                                <w:gridSpan w:val="7"/>
+                                                <w:gridSpan w:val="8"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -1922,7 +1822,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="2847" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -2008,7 +1908,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="5003" w:type="dxa"/>
-                                                <w:gridSpan w:val="7"/>
+                                                <w:gridSpan w:val="8"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -2056,7 +1956,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="2847" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -2143,7 +2043,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="5003" w:type="dxa"/>
-                                                <w:gridSpan w:val="7"/>
+                                                <w:gridSpan w:val="8"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -2190,7 +2090,7 @@
                                         <w:tc>
                                             <w:tcPr>
                                                 <w:tcW w:w="2847" w:type="dxa"/>
-                                                <w:gridSpan w:val="3"/>
+                                                <w:gridSpan w:val="2"/>
                                                 <w:tcBorders>
                                                     <w:top w:val="nil"/>
                                                     <w:left w:val="nil"/>
@@ -2297,17 +2197,13 @@
                                                     </w:rPr>
                                                     <w:t>元 大写：￥</w:t>
                                                 </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="none"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> </w:t>
-                                                </w:r>
+
+
+<#if totalPriceUppercase??>
+    <#list totalPriceUppercase as de>
+
+
+
                                                 <w:r>
                                                     <w:rPr>
                                                         <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
@@ -2321,7 +2217,7 @@
                                                         <w:u w:val="single"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t xml:space="preserve"> 肆 </w:t>
+                                                    <w:t xml:space="preserve"> ${(de.upperCaseNumber)!} </w:t>
                                                 </w:r>
                                                 <w:r>
                                                     <w:rPr>
@@ -2332,112 +2228,15 @@
                                                         <w:u w:val="none"/>
                                                         <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
                                                     </w:rPr>
-                                                    <w:t xml:space="preserve"> 万 </w:t>
+                                                    <w:t xml:space="preserve"> ${(de.unit)!} </w:t>
                                                 </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b/>
-                                                        <w:bCs/>
-                                                        <w:i/>
-                                                        <w:iCs/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="single"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 陆 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="none"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 仟 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b/>
-                                                        <w:bCs/>
-                                                        <w:i/>
-                                                        <w:iCs/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="single"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 陆 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="none"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 佰 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b/>
-                                                        <w:bCs/>
-                                                        <w:i/>
-                                                        <w:iCs/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="single"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 伍 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="none"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 拾 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:b/>
-                                                        <w:bCs/>
-                                                        <w:i/>
-                                                        <w:iCs/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="single"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 叁 </w:t>
-                                                </w:r>
-                                                <w:r>
-                                                    <w:rPr>
-                                                        <w:rFonts w:hint="eastAsia" w:eastAsia="宋体"/>
-                                                        <w:w w:val="100"/>
-                                                        <w:sz w:val="26"/>
-                                                        <w:szCs w:val="26"/>
-                                                        <w:u w:val="none"/>
-                                                        <w:lang w:val="en-US" w:eastAsia="zh-CN"/>
-                                                    </w:rPr>
-                                                    <w:t xml:space="preserve"> 元</w:t>
-                                                </w:r>
+
+
+
+    </#list>
+</#if>
+
+
                                             </w:p>
                                         </w:tc>
                                     </w:tr>
@@ -2554,6 +2353,7 @@
                                 </w:tbl>
                                 <w:p>
                                     <w:pPr>
+                                        <w:widowControl w:val="0"/>
                                         <w:tabs>
                                             <w:tab w:val="left" w:pos="608"/>
                                         </w:tabs>

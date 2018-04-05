@@ -1,7 +1,10 @@
 package com.jin.fudai.util;
 
 import com.jin.fudai.consts.MoneyUnit;
+import com.jin.fudai.dto.MoneyDto;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Pattern;
 
 /**
@@ -48,9 +51,18 @@ public class MoneyTransformHelper {
      * @param s
      * @return
      */
-    public static String[] toArray(String s)
+    public static List<MoneyDto> toArray(String s)
     {
-        return Assert.notEmpty(s) ? s.split("") : null;
+        List<MoneyDto> res = new ArrayList<>();
+        if(Assert.notEmpty(s)) {
+            String[] arr = s.trim().split("");
+
+            for (int i = 0; i < arr.length; i+=2) {
+                MoneyDto dto = new MoneyDto(arr[i], arr[i+1]);
+                res.add(dto);
+            }
+        }
+        return res;
     }
 
     private static char[] numberToArray(String number)
@@ -74,8 +86,12 @@ public class MoneyTransformHelper {
     public static void main(String[] args) {
         System.out.println("-----------");
 
-        for (String s : toUpperNumber("12345").split("")) {
-            System.out.println(s);
+        List<MoneyDto> arr = toArray("壹万贰仟叁佰肆拾伍元");
+        System.out.println(arr.size());
+        for (MoneyDto dto : arr) {
+
+            System.out.println(dto.getUpperCaseNumber());
+            System.out.println(dto.getUnit());
         }
 
         System.out.println("-----------");

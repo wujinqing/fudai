@@ -15,7 +15,7 @@ public class SaleOrder {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     @Column(name = "id")
-    private long id;
+    private Long id;
 
     /**
      * 订单号: 201803201
@@ -79,11 +79,11 @@ public class SaleOrder {
 
     private List<SaleOrderDetail> details;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

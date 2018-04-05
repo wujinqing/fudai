@@ -1,5 +1,6 @@
 package com.jin.fudai.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.jin.fudai.dto.OrderDto;
 import com.jin.fudai.dto.ProductDto;
 import com.jin.fudai.dto.SaleOrderDto;
@@ -10,6 +11,7 @@ import com.jin.fudai.repository.ProductRepository;
 import com.jin.fudai.repository.SaleOrderRepository;
 import com.jin.fudai.util.Assert;
 import com.jin.fudai.util.FreeMarkerHelper;
+import com.jin.fudai.util.OrderNoGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
@@ -18,6 +20,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
@@ -52,13 +57,19 @@ public class SaleOrderController {
         {
             order = saleOrderRepository.findById(id).get();
         }else {
+            SaleOrder lastOrder = saleOrderRepository.findTopByOrderByIdDesc();
+            String orderNo;
+            if (Assert.notNull(lastOrder)) {
+                orderNo = OrderNoGenerator.generate(lastOrder.getOrderNo());
+            }else {
+                orderNo = OrderNoGenerator.generate();
+            }
+
+            System.out.println(JSON.toJSONString(lastOrder));
             order = new SaleOrder();
 
-            order.setOrderNo("2018032701");
-            order.setCustomerName("吴晋清");
-            order.setCustomerPhoneNumber("15021083134");
-            order.setCustomerAddress("上海市");
-            order.setDate("2018年03月27日");
+            order.setOrderNo(orderNo);
+            order.setDate(LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy年MM月dd日")));
         }
         model.addAttribute("order", order);
 
@@ -67,8 +78,9 @@ public class SaleOrderController {
 
     @RequestMapping("/third")
     public String thirdStep(Model model, SaleOrder order) {
-        long orderId = order.getId();
-        if(Assert.isNull(orderId) || 0 == orderId){
+        Long orderId = order.getId();
+        if(Assert.isNull(orderId)){
+            order.setCrtDt(Long.valueOf(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"))));
             saleOrderRepository.saveAndFlush(order);
         }else {
             order = saleOrderRepository.findById(orderId).get();

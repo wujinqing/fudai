@@ -26,5 +26,8 @@ hs_err_pid*
 .gradle/
 .idea/
 build/
-src/main/java/com/jin/fudai/dto/
 src/test/
+out/production/classes/generated/
+out/production/resources/
+src/main/resources/doc/
+src/main/webapp/WEB-INF/.svn/
